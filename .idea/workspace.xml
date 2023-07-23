@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c3d7786-3bbf-4606-9c9b-6a6828340eae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/FirstMockitoTest.java" afterDir="false" />
+    <list default="true" id="6c3d7786-3bbf-4606-9c9b-6a6828340eae" name="Changes" comment="Testing using Stub for Todo Service">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,35 +16,69 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Mockito1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.8.6-bin/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="C:\Users\acer\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SxgGwSIdQxTcMYPU8yhSKmAsfX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "D:/Kritika/Program/JavaJunits/JavaMockito/src/test/java",
-    "onboarding.tips.debug.path": "D:/Kritika/Program/JavaJunits/JavaMockito/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/Kritika/Program/JavaJunits/JavaMockito/src/test/java/org/example&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Kritika/Program/JavaJunits/JavaMockito&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Kritika/Program/JavaJunits/JavaMockito/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example" />
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.business" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstMockitoTest">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingMockito_EmptyList">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="JavaMockito" />
       <extension name="coverage">
@@ -74,12 +101,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.FirstMockitoTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstMockitoTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstMockitoTest.test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="JavaMockito" />
       <extension name="coverage">
         <pattern>
@@ -87,6 +115,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.FirstMockitoTest" />
       <option name="METHOD_NAME" value="test" />
@@ -95,11 +125,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingMockito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.business" />
+      <option name="MAIN_CLASS_NAME" value="org.example.business.TodoBusinessImplMockTest" />
+      <option name="METHOD_NAME" value="testRetrieveTodosRelatedToSpring_usingMockito" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingMockito_EmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.business" />
+      <option name="MAIN_CLASS_NAME" value="org.example.business.TodoBusinessImplMockTest" />
+      <option name="METHOD_NAME" value="testRetrieveTodosRelatedToSpring_usingMockito_EmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoBusinessImplStubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaMockito" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.business" />
+      <option name="MAIN_CLASS_NAME" value="org.example.business.TodoBusinessImplStubTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.FirstMockitoTest.test" />
+      <item itemvalue="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingMockito" />
+      <item itemvalue="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingMockito_EmptyList" />
+      <item itemvalue="JUnit.FirstMockitoTest" />
+      <item itemvalue="JUnit.TodoBusinessImplStubTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstMockitoTest" />
+        <item itemvalue="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingMockito_EmptyList" />
+        <item itemvalue="JUnit.TodoBusinessImplMockTest.testRetrieveTodosRelatedToSpring_usingMockito" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FirstMockitoTest.test" />
+        <item itemvalue="JUnit.TodoBusinessImplStubTest" />
+        <item itemvalue="JUnit.FirstMockitoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +199,43 @@
       <option name="presentableId" value="Default" />
       <updated>1690020868635</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Mockito Test">
+      <option name="closed" value="true" />
+      <created>1690024578208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690024578208</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Testing using Stub for Todo Service">
+      <option name="closed" value="true" />
+      <created>1690043768046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690043768046</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Mockito Test" />
+    <MESSAGE value="Testing using Stub for Todo Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing using Stub for Todo Service" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
