@@ -1,5 +1,6 @@
 package org.example.business;
 
+import junit.framework.TestCase;
 import org.example.data.api.TodoService;
 import org.junit.Test;
 
@@ -8,6 +9,7 @@ import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
+import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -50,7 +52,18 @@ public class TodoBusinessBDDTest {
     }
 
 
+    @Test
+    public void letsMockListGetWithAny_UsingBDD() {
+        //given
+        List<String> list = mock(List.class);
+        given(list.get(anyInt())).willReturn("Kritika");
 
+        //when
+        String val = list.get(0);
+
+        //Then
+        assertThat(val, is("Kritika"));
+    }
 
   // More readable and easy to understand
 }
